@@ -9,7 +9,7 @@ const firestore = new Firestore();
  * Setting cross origin
  */
 app.use(express.json(), cors({
-    origin: "https://as3-6tdcine2na-ue.a.run.app"
+    origin: ""
 }));
 
 app.get('/', function (req, res) {

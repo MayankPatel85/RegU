@@ -13,7 +13,7 @@ app.use(express.json());
  * Setting cross origin
  */
 app.use(cors({
-    origin: "https://as3-6tdcine2na-ue.a.run.app"
+    origin: ""
 }));
 
 app.get('/', function (req, res) {
